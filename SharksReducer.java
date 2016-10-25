@@ -60,7 +60,7 @@ public class SharksReducer extends Reducer<IntWritable, Text, IntWritable, Text>
 	List<Integer> meme_list = new ArrayList<>();
 	for (int i = 0; i < newTimes.size(); i++)
 	{
-		meme_list.add(0);
+		meme_list.add(i);
 	}
 
 	for(int i = 0; i < newTimes.size(); i ++)
